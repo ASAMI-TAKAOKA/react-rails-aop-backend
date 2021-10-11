@@ -28,7 +28,7 @@ services:
       - *rails_app_volumes
     environment:
       <<: *rails_app_environment
-      FRONTEND_ORIGIN: http://localhost:3000
+      FRONTEND_ORIGIN: http://localhost:3002
     depends_on:
       - db
     stdin_open: true
